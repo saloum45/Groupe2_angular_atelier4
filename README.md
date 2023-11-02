@@ -1,1 +1,2 @@
 # Groupe2_angular_atelier4
+node_modules
