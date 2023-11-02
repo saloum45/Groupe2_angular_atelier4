@@ -1,0 +1,22 @@
+.details-image img
+{
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+}
+
+
+.description
+{
+  background-color: #CFE2FF;
+  padding: 10px;
+  border-radius: 10px;
+  height: 218px;
+  overflow: auto;
+}
+.description h4
+{
+color: #0D6EFD;
+/* text-align: center; */
+font-weight: bold;
+}

@@ -1,0 +1,16 @@
+.description{
+  max-height: 78px;
+  min-height: 78px;
+  overflow: hidden;
+}
+
+
+#card-image{
+  height: 200px;
+}
+
+
+#card
+{
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
