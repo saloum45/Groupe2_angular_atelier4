@@ -56,7 +56,7 @@ export class ProduitComponent {
 
   // Methodes
   saveCard(produit:any){
-    this.dataPass=true;
+    // this.dataPass=true;
     console.warn(produit);
     localStorage.setItem('produit',JSON.stringify(produit));
   }

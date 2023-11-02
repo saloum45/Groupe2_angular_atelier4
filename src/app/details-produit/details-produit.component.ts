@@ -7,8 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class DetailsProduitComponent{
   // Attributs
-  @Input() dataPassed:any;
-  // card=JSON.parse(localStorage.getItem('produit') || "{}");
+  // @Input() dataPassed:any;
+  dataPassed=JSON.parse(localStorage.getItem('produit') || "{}");
 
   // Methodes
 
