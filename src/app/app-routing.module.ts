@@ -11,10 +11,7 @@ const routes: Routes = [
   {
     path:"",component:ProduitComponent
   }
-  ,
-  {
-    path:"produit",component:ProduitComponent
-  }
+
 ];
 
 @NgModule({
