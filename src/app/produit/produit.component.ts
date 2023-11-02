@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ProduitComponent {
   // Attributs
+  dataPass=false;
   produits=[
     {
       id:1,
@@ -55,6 +56,7 @@ export class ProduitComponent {
 
   // Methodes
   saveCard(produit:any){
+    this.dataPass=true;
     console.warn(produit);
     localStorage.setItem('produit',JSON.stringify(produit));
   }
