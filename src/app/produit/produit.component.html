@@ -1,0 +1,28 @@
+<div class="container mt-5 mb-5">
+  <div class="row row-cols-1 row-cols-md-3 g-4" >
+    <div class="col" *ngFor="let produit of produits">
+      <div class="card h-100" id="card">
+        <img src="{{produit.image}}" class="card-img-top" alt="..." id="card-image">
+        <div class="card-body">
+          <div class="class d-flex justify-content-between">
+
+            <h5 class="card-title">{{produit.titre}}</h5>
+            <span class="badge bg-primary" style="height: 21px;">{{produit.prix}} fcfa</span>
+          </div>
+          <p class="card-text description">
+            {{produit.description}}
+          </p>
+          <div>
+            <button class="btn btn-primary w-100" routerLink="details" (click)="saveCard(produit)">
+              Détails
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- <app-details-produit dataPassed="dataPass"></app-details-produit> -->
